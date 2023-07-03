@@ -7,11 +7,15 @@ h1{
     font-size: 70px;
     margin: 20px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
 .flex{
     display: flex;
+    margin-bottom: 150px;
 }
 .border{
     padding-left: 10%;
@@ -31,8 +35,23 @@ a{
     border-radius: 10%;
     background-color: aqua;
     padding: 2%;
-    position: absolute top: 5px;
+    position: abs
+    olute top: 5px;
 }
-section{
-    display: flex;
+.developer{
+    box-shadow: 10px 10px 10px gray;/*eta dile alada box banaite hoy na margin diye,box create hoye jay*/
+    margin-left: 5%;
+    margin-right: 5%;/*2 ta box k dure shoraite*/
+    width: 40%;
+    padding-left: 10px;/*box er likha box theke dure shoraite*/
+    border-radius: 5%;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+#Full-stack-Developer{
+    border-left: 7px solid red; 
+}
+footer p{
+    text-align: center;
 }
